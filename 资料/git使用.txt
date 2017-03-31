@@ -1,0 +1,37 @@
+git init           初始化git库
+git status     查看状态
+git add  文件名   添加
+git commit -m '提交描述'     提交
+git log     查看日志 
+git branch      查看分支
+git branch name     新建一个name的分支
+git checkout name     切换到name分支下开发
+git checkout -b name     新建一个name的分支并切换到name分支下开发
+git branch -d name     删除name分支
+git branch -D name     强制删除name分支
+git merge     合并分支(1.切换到master分支. 2.git merge name 把name分支的代码合并进来)
+git tag     查看版本号
+git tag v1.0     添加版本
+rm name    本地删除name文件
+git rm name     删除name文件
+git checkout v1.0     切换至v1.0版本
+git push origin master 推送到远程master分支
+git pull origin master 把远程最新的代码更新到本地   (push之前先pull)
+git clone ....     远程库clone到本地
+ssh 查看是否安装ssh
+ssh-keygen -t rsa     指定rsa算法生成密钥
+                                连续三次回车键(不需要输入密码)生成两个文件 id_rsa(密钥)和idrsa.pub(公钥)
+                                linux/mac系统在~/.ssh
+                                win系统在c/user/a/.ssh
+                                (都是隐藏文件)
+
+github配置
+获取ssh
+github setting  设置 ssh(本地公钥)
+
+添加： add -commit-pull-push
+删除： rm-git rm-commit- pull-push
+分支： branch-checkout
+合并分支： branch master - merge - 
+
+
