@@ -2,4 +2,6 @@
     <string name="app_name">Tearat</string>
     <string name="HOME">首页</string>
     <string name="MY">我的</string>
+    <string name="ACCOUNT">账号:</string>
+    <string name="LOGIN">登录</string>
 </resources>
