@@ -11,7 +11,6 @@ import com.tearat.base.BaseFragment;
  * Durian
  * 2017-2017/3/15
  */
-
 public class HomeFragment extends BaseFragment implements View.OnClickListener {
     RecyclerView rv;
     public static HomeFragment newInstance(String name) {
@@ -21,6 +20,7 @@ public class HomeFragment extends BaseFragment implements View.OnClickListener {
         fragment.setArguments(args);
         return fragment;
     }
+
     @Override
     public void onClick(View v) {
 
@@ -40,4 +40,5 @@ public class HomeFragment extends BaseFragment implements View.OnClickListener {
     protected int getLayoutId() {
         return R.layout.fragment_home;
     }
+
 }
